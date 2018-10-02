@@ -1,25 +1,39 @@
-.black{
-background-color:black;
+body {
+  font-family: Arial;
+  background-color: #eceff1;
 }
-.text-truncate_ellipsis{
+
+.black {
+  background-color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .width-fix {
+    width: 280px;
+  }
+  .logo-dimensions {
+    width: 180px;
+    height: 30px;
+  }
+}
+#overlay {
+  transform: translate3d(-10px, 6px, 0px) !important;
+}
+/*.text-truncate_ellipsis{
 	display: inline-block !important;
 }
 .dropdown-menu{
-	transform: translate3d(0px,50px, 0px) !important;
+	
 }
 
 .menu-fix {
 	transform: translate3d(-140px,30px, 0px) !important;
 }
 
-@media only screen and (min-width: 300px) { 
-h2{
-	font-size:1.5em;
-}
-.width-fix{
-		width:280px;
-}
-}
+
 
 @media only screen and (min-width: 544px) { 
 
@@ -46,19 +60,17 @@ h2{
 }
 }
 
-.logo-dimensions{
-	height:50px;
-}
+
 
 .border-radius{
 		border: 2px solid white;
 }
 
-div{
+/*div{
 	padding:4px !important;
-}
+}*/
 
-.borderless td, .borderless th ,.borderless thead{
+/*.borderless td, .borderless th ,.borderless thead{
     border: none;
 }
 
@@ -82,14 +94,14 @@ div{
 
 /* Styles for wrapping the search box */
 
-.main {
+/*.main {
     width: 50%;
     margin: 50px auto;
 }
 
 /* Bootstrap 4 text input with search icon */
 
-.has-search .form-control {
+/*.has-search .form-control {
     padding-left: 2.375rem;
 }
 
@@ -105,10 +117,7 @@ div{
     color: #aaa;
 }
 
-body {
-  font-family: Arial;
-  background-color: #eceff1;
-}
+
 
 /*
 #logo {
@@ -253,7 +262,7 @@ hr {
 }
 
 @media only screen and (min-width: 769px) {
-*/
+*/ /*
   .info {
     font-size: 1.5em;
     width: 100%;
@@ -310,3 +319,4 @@ hr {
     font-size: 2em;
   }
 }
+*/
